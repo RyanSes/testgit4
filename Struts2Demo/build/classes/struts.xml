@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package  name="UserAction" extends="struts-default">
+	     	<!-- 说爱你 -->
+	     	<action name="sayLove" class="com.ly.Action.UserAction" method="sayLoveyou">
+	     		<result name="suc">suc.jsp</result>
+	     		<result name="no">no.jsp</result>
+	     	
+	     	</action>
+	     	<action name="sayMiss" class="com.ly.Action.UserAction" method="sayMissyou"></action>
+		
+	</package>  
+</struts> 
